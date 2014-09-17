@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	salt
-PORTVERSION=	2014.1.10
+DISTVERSION=	2014.7.0rc2
 CATEGORIES=	sysutils python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -12,15 +12,17 @@ COMMENT=	Distributed remote execution and configuration management system
 
 LICENSE=	APACHE20
 
-BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyzmq>=2.1.9:${PORTSDIR}/net/py-pyzmq
+BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyzmq>=2.2.0:${PORTSDIR}/net/py-pyzmq
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}yaml>0:${PORTSDIR}/devel/py-yaml \
-		${PYTHON_PKGNAMEPREFIX}pyzmq>=2.1.9:${PORTSDIR}/net/py-pyzmq \
+		${PYTHON_PKGNAMEPREFIX}pyzmq>=2.2.0:${PORTSDIR}/net/py-pyzmq \
 		${PYTHON_PKGNAMEPREFIX}pycrypto>0:${PORTSDIR}/security/py-pycrypto \
 		${PYTHON_PKGNAMEPREFIX}Jinja2>0:${PORTSDIR}/devel/py-Jinja2 \
-		${PYTHON_PKGNAMEPREFIX}msgpack>=0.1.9:${PORTSDIR}/devel/py-msgpack \
-		${PYTHON_PKGNAMEPREFIX}libcloud>=0.11.4:${PORTSDIR}/net/py-libcloud \
+		${PYTHON_PKGNAMEPREFIX}msgpack>=0.1.13:${PORTSDIR}/devel/py-msgpack \
+		${PYTHON_PKGNAMEPREFIX}libcloud>=0.14.0:${PORTSDIR}/net/py-libcloud \
 		${PYTHON_PKGNAMEPREFIX}botocore>0:${PORTSDIR}/devel/py-botocore \
 		${PYTHON_PKGNAMEPREFIX}m2crypto>0:${PORTSDIR}/security/py-m2crypto \
+		${PYTHON_PKGNAMEPREFIX}MarkupSafe>0:${PORTSDIR}/textproc/py-MarkupSafe \
+		${PYTHON_PKGNAMEPREFIX}requests>0:${PORTSDIR}/www/py-requests \
 		sshpass>0:${PORTSDIR}/security/sshpass
 
 USE_PYTHON=	2
