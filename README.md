@@ -1,8 +1,8 @@
 LLNW salt port for FreeBSD
 ==========================
 
-* Upstream:  http://svn.FreeBSD.org/ports/head/sysutils/pysalt
-* FreshPorts:  http://www.freshports.org/sysutils/pysalt/
+* Upstream:  http://svn.FreeBSD.org/ports/head/sysutils/py-salt
+* FreshPorts:  http://www.freshports.org/sysutils/py-salt/
 * Our Port differences:  https://github.com/llnw/salt-build-freebsd/compare/upstream...LLNW
 
 Building the port:
