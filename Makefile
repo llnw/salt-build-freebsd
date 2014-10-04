@@ -25,8 +25,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}yaml>0:${PORTSDIR}/devel/py-yaml \
 		${PYTHON_PKGNAMEPREFIX}requests>0:${PORTSDIR}/www/py-requests \
 		sshpass>0:${PORTSDIR}/security/sshpass
 
-USE_PYTHON=		2
-USE_PYDISTUTILS=	yes
+USES=			python:2
+USE_PYTHON=		distutils
 PYDISTUTILS_EGGINFO=	salt-${DISTVERSION}-py${PYTHON_VER}.egg-info
 
 PYDISTUTILS_INSTALLARGS+=\
