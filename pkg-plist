@@ -898,6 +898,8 @@ bin/salt-unity
 %%PYTHON_SITELIBDIR%%/salt/roster/__init__.pyc
 %%PYTHON_SITELIBDIR%%/salt/roster/ansible.py
 %%PYTHON_SITELIBDIR%%/salt/roster/ansible.pyc
+%%PYTHON_SITELIBDIR%%/salt/roster/cache.py
+%%PYTHON_SITELIBDIR%%/salt/roster/cache.pyc
 %%PYTHON_SITELIBDIR%%/salt/roster/flat.py
 %%PYTHON_SITELIBDIR%%/salt/roster/flat.pyc
 %%PYTHON_SITELIBDIR%%/salt/roster/scan.py
@@ -940,6 +942,8 @@ bin/salt-unity
 %%PYTHON_SITELIBDIR%%/salt/runners/state.pyc
 %%PYTHON_SITELIBDIR%%/salt/runners/survey.py
 %%PYTHON_SITELIBDIR%%/salt/runners/survey.pyc
+%%PYTHON_SITELIBDIR%%/salt/runners/test.py
+%%PYTHON_SITELIBDIR%%/salt/runners/test.pyc
 %%PYTHON_SITELIBDIR%%/salt/runners/thin.py
 %%PYTHON_SITELIBDIR%%/salt/runners/thin.pyc
 %%PYTHON_SITELIBDIR%%/salt/runners/virt.py
@@ -1408,6 +1412,7 @@ man/man1/salt-minion.1.gz
 man/man1/salt-run.1.gz
 man/man1/salt-ssh.1.gz
 man/man1/salt-syndic.1.gz
+man/man1/salt-unity.1.gz
 man/man1/salt.1.gz
 man/man7/salt.7.gz
 @dirrmtry %%ETCDIR%%
