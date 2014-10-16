@@ -1320,6 +1320,8 @@ bin/salt-unity
 %%PYTHON_SITELIBDIR%%/salt/utils/openstack/nova.pyc
 %%PYTHON_SITELIBDIR%%/salt/utils/openstack/swift.py
 %%PYTHON_SITELIBDIR%%/salt/utils/openstack/swift.pyc
+%%PYTHON_SITELIBDIR%%/salt/utils/pagerduty.py
+%%PYTHON_SITELIBDIR%%/salt/utils/pagerduty.pyc
 %%PYTHON_SITELIBDIR%%/salt/utils/parsers.py
 %%PYTHON_SITELIBDIR%%/salt/utils/parsers.pyc
 %%PYTHON_SITELIBDIR%%/salt/utils/process.py
