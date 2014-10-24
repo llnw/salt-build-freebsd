@@ -64,6 +64,8 @@ bin/salt-unity
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/__init__.pyc
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/config.py
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/config.pyc
+%%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/cp.py
+%%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/cp.pyc
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/grains.py
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/grains.pyc
 %%PYTHON_SITELIBDIR%%/salt/client/ssh/wrapper/pillar.py
